@@ -23,7 +23,7 @@
         {1, 2, 3},
         {4, 5, 6},  //끝에 콤마 추가 <<-- 이거 왜 추가하시는지 아시는분???? http://golang.site/go/article/12-Go-%EC%BB%AC%EB%A0%89%EC%85%98---%EB%B0%B0%EC%97%B4
         // 중괄호가 한줄인경우는 안붙여도 되지만 여러줄인경우는 붙여야한다고합니다. 맵 찾아보다가 알았음 이유는 못찾음 ㅠ 
-        //Need trailing comma before newline in composite literal (복합 리터럴에서 줄 바꿈 앞에 후행 쉼표가 필요합니다.)
+        //Need trailing comma before newline in composite literal (복합 리터럴에서 줄 바꿈 앞에 후행 쉼표가 필요합니다.) https://golang.org/ref/spec#Semicolons
     }
   ```
 ### 슬라이스
